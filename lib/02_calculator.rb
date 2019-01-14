@@ -18,15 +18,6 @@ def power(nb1,nb2)
 	return nb1**nb2
 end
 
-# def factorial(nb)
-# 	result = Array.new
-# 	while nb<= 0
-# 		result << nb
-# 		nb = nb - 1
-# 	end
-# 	puts result.product
-# end
-# puts factorial(3)
 def factorial(nb)
 	result = Array.new
 	if nb == 0
